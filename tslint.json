@@ -1,0 +1,14 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "object-literal-sort-keys": false
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": ["server.js", "node_modules/**/*.ts"]
+  }
+}

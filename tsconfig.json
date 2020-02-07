@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noResolve": false,
+    "lib": ["es6", "es2016.array.include", "dom"],
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+      "/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
